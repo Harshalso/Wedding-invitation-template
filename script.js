@@ -26,17 +26,17 @@ function generateImage() {
 
         ctx.font = "80px 'Great Vibes', cursive";
         ctx.fillStyle = "#FF69B4";
-        // ctx.shadowColor = "#000000";
-        // ctx.shadowBlur = 5;
+        ctx.shadowColor = "#000000";
+        ctx.shadowBlur = 3;
         ctx.fillText(`${brideName} & ${groomName}`, canvas.width / 2, canvas.height / 2 - 80);
 
-        ctx.font = "60px 'Arial', sans-serif";
+        ctx.font = "50px 'Arial', sans-serif";
         ctx.fillStyle = "#8B4513";
         // ctx.shadowColor = "#000000";
-        ctx.shadowBlur = 5;
+        // ctx.shadowBlur = 5;
         ctx.fillText(weddingDate, canvas.width / 2, canvas.height / 2 + 80);
 
-        ctx.font = "50px 'Arial', sans-serif";
+        ctx.font = "60px 'Arial', sans-serif";
         ctx.fillStyle = "#4B0082";
         // ctx.shadowColor = "#000000";
         ctx.shadowBlur = 5;
