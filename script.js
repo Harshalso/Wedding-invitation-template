@@ -21,7 +21,7 @@ function generateImage() {
         ctx.textBaseline = "middle";
         ctx.fillStyle = "#FFD700";
         ctx.shadowColor = "#000000";
-        ctx.shadowBlur = 5;
+        ctx.shadowBlur = 15;
         ctx.fillText("Join Us for the Wedding of", canvas.width / 2, canvas.height / 2 - 220);
 
         ctx.font = "80px 'Great Vibes', cursive";
