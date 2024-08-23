@@ -21,7 +21,7 @@ function generateImage() {
         ctx.textBaseline = "middle";
         ctx.fillStyle = "#FFD700";
         ctx.shadowColor = "#000000";
-        ctx.shadowBlur = 15;
+        ctx.shadowBlur = 10;
         ctx.fillText("Join Us for the Wedding of", canvas.width / 2, canvas.height / 2 - 220);
 
         ctx.font = "80px 'Great Vibes', cursive";
@@ -30,16 +30,16 @@ function generateImage() {
         ctx.shadowBlur = 10;
         ctx.fillText(`${brideName} & ${groomName}`, canvas.width / 2, canvas.height / 2 - 80);
 
-        ctx.font = "50px 'Arial', sans-serif";
+        ctx.font = "60px 'Arial', sans-serif";
         ctx.fillStyle = "#8B4513";
-        // ctx.shadowColor = "#000000";
-        // ctx.shadowBlur = 5;
+        ctx.shadowColor = "#000000";
+        ctx.shadowBlur = 10;
         ctx.fillText(weddingDate, canvas.width / 2, canvas.height / 2 + 80);
 
-        ctx.font = "60px 'Arial', sans-serif";
+        ctx.font = "50px 'Arial', sans-serif";
         ctx.fillStyle = "#4B0082";
-        // ctx.shadowColor = "#000000";
-        // ctx.shadowBlur = 5;
+        ctx.shadowColor = "#000000";
+        ctx.shadowBlur = 10;
         ctx.fillText(weddingMessage, canvas.width / 2, canvas.height / 2 + 200);
 
         const downloadLink = document.getElementById('download-link');
